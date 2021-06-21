@@ -530,6 +530,7 @@ public class Yimiao {
                         tj.put("ouatId", String.valueOf(tym.get("ouatId")));
                         tj.put("vaccCodes", "5601");
 
+                        tj.put("vaccCodes", "5601");
                         //String jsonParam = "{\"reusId\":\"605353917695258624\",\"depaId\":\"55111F9F-22E5-AC7F-3B92-BCCE8749C61B\",\"corpCode\":\"36\",\"date\":\"2021-06-01\",\"ouatId\":\"673\",\"vaccCodes\":\"5601\"}";
                         //String ret  = post(address, null, null,headers,tj.toString());
                         String ret  = post2(address, headers, tj,"UTF-8");
